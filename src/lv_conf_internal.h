@@ -1168,13 +1168,6 @@
         #define LV_FONT_UNSCII_16 0
     #endif
 #endif
-#ifndef LV_FONT_UNSCII_7_THIN
-    #ifdef CONFIG_LV_FONT_UNSCII_7_THIN
-        #define LV_FONT_UNSCII_7_THIN CONFIG_LV_FONT_UNSCII_7_THIN
-    #else
-        #define LV_FONT_UNSCII_7_THIN 0
-    #endif
-#endif
 #ifndef LV_FONT_UNSCII_8_THIN
     #ifdef CONFIG_LV_FONT_UNSCII_8_THIN
         #define LV_FONT_UNSCII_8_THIN CONFIG_LV_FONT_UNSCII_8_THIN
@@ -1183,13 +1176,6 @@
     #endif
 #endif
 
-#ifndef LV_FONT_SYNCH_7
-    #ifdef CONFIG_LV_FONT_SYNCH_7
-        #define LV_FONT_SYNCH_7 CONFIG_LV_FONT_SYNCH_7
-    #else
-        #define LV_FONT_SYNCH_7  0
-    #endif
-#endif
 #ifndef LV_FONT_SYNCH_8
     #ifdef CONFIG_LV_FONT_SYNCH_8
         #define LV_FONT_SYNCH_8 CONFIG_LV_FONT_SYNCH_8

@@ -240,16 +240,8 @@ LV_FONT_DECLARE(lv_font_unscii_8)
 LV_FONT_DECLARE(lv_font_unscii_16)
 #endif
 
-#if LV_FONT_UNSCII_7_THIN
-LV_FONT_DECLARE(lv_font_unscii_7_thin)
-#endif
-
 #if LV_FONT_UNSCII_8_THIN
 LV_FONT_DECLARE(lv_font_unscii_8_thin)
-#endif
-
-#if LV_FONT_SYNCH_7
-LV_FONT_DECLARE(lv_font_synch_7)
 #endif
 
 #if LV_FONT_SYNCH_8
