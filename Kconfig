@@ -645,15 +645,9 @@ menu "LVGL configuration"
             config LV_FONT_DEFAULT_UNSCII_16
                 bool "UNSCII 16 (Perfect monospace font)"
                 select LV_FONT_UNSCII_16
-            config LV_FONT_DEFAULT_UNSCII_7_THIN
-                bool "UNSCII 7 Thin (Perfect monospace font)"
-                select LV_FONT_UNSCII_7_THIN
             config LV_FONT_DEFAULT_UNSCII_8_THIN
                 bool "UNSCII 8 Thin (Perfect monospace font)"
                 select LV_FONT_UNSCII_8_THIN
-            config LV_FONT_DEFAULT_SYNCH_7
-                bool "Synchronizer 7"
-                select LV_FONT_SYNCH_7
             config LV_FONT_DEFAULT_SYNCH_8
                 bool "Synchronizer 8"
                 select LV_FONT_SYNCH_8
