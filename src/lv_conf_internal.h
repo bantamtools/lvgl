@@ -1198,6 +1198,30 @@
     #endif
 #endif
 
+#ifndef LV_FONT_MEDSANS_16
+    #ifdef CONFIG_LV_FONT_MEDSANS_16
+        #define LV_FONT_MEDSANS_16 CONFIG_LV_FONT_MEDSANS_16
+    #else
+        #define LV_FONT_MEDSANS_16  0
+    #endif
+#endif
+
+#ifndef LV_FONT_WIZZARD_16
+    #ifdef CONFIG_LV_FONT_WIZZARD_16
+        #define LV_FONT_WIZZARD_16 CONFIG_LV_FONT_WIZZARD_16
+    #else
+        #define LV_FONT_WIZZARD_16  0
+    #endif
+#endif
+
+#ifndef LV_FONT_SMALLSIMPLE_16
+    #ifdef CONFIG_LV_FONT_SMALLSIMPLE_16
+        #define LV_FONT_SMALLSIMPLE_16 CONFIG_LV_FONT_SMALLSIMPLE_16
+    #else
+        #define LV_FONT_SMALLSIMPLE_16  0
+    #endif
+#endif
+
 /*Optionally declare custom fonts here.
  *You can use these fonts as default font too and they will be available globally.
  *E.g. #define LV_FONT_CUSTOM_DECLARE   LV_FONT_DECLARE(my_font_1) LV_FONT_DECLARE(my_font_2)*/

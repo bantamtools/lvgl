@@ -548,6 +548,15 @@ menu "LVGL configuration"
             config LV_FONT_SYNCH_8
                 bool "Enable Synchronizer 8"
 
+            config LV_FONT_MEDSANS_16
+                bool "Enable MedSans 16"
+
+            config LV_FONT_WIZZARD_16
+                bool "Enable Wizzard 16"
+
+            config LV_FONT_SMALLSIMPLE_16
+                bool "Enable Small Simple 16"
+
             config LV_FONT_CUSTOM
                 bool "Enable the custom font"
             config LV_FONT_CUSTOM_DECLARE
@@ -652,6 +661,15 @@ menu "LVGL configuration"
             config LV_FONT_DEFAULT_SYNCH_8
                 bool "Synchronizer 8"
                 select LV_FONT_SYNCH_8
+            config LV_FONT_DEFAULT_MEDSANS_16
+                bool "MedSans 16"
+                select LV_FONT_MEDSANS_16
+            config LV_FONT_DEFAULT_WIZZARD_16
+                bool "Wizzard 16"
+                select LV_FONT_WIZZARD_16
+            config LV_FONT_DEFAULT_SMALLSIMPLE_16
+                bool "Small Simple 16"
+                select LV_FONT_SMALLSIMPLE_16
         endchoice
 
         config LV_FONT_FMT_TXT_LARGE

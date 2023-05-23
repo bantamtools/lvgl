@@ -256,6 +256,18 @@ LV_FONT_DECLARE(lv_font_synch_7)
 LV_FONT_DECLARE(lv_font_synch_8)
 #endif
 
+#if LV_FONT_MEDSANS_16
+LV_FONT_DECLARE(lv_font_medsans_16)
+#endif
+
+#if LV_FONT_WIZZARD_16
+LV_FONT_DECLARE(lv_font_wizzard_16)
+#endif
+
+#if LV_FONT_SMALLSIMPLE_16
+LV_FONT_DECLARE(lv_font_smallsimple_16)
+#endif
+
 /*Declare the custom (user defined) fonts*/
 #ifdef LV_FONT_CUSTOM_DECLARE
 LV_FONT_CUSTOM_DECLARE
