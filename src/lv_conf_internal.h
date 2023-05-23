@@ -1168,6 +1168,20 @@
         #define LV_FONT_UNSCII_16 0
     #endif
 #endif
+#ifndef LV_FONT_UNSCII_7_THIN
+    #ifdef CONFIG_LV_FONT_UNSCII_7_THIN
+        #define LV_FONT_UNSCII_7_THIN CONFIG_LV_FONT_UNSCII_7_THIN
+    #else
+        #define LV_FONT_UNSCII_7_THIN 0
+    #endif
+#endif
+#ifndef LV_FONT_UNSCII_8_THIN
+    #ifdef CONFIG_LV_FONT_UNSCII_8_THIN
+        #define LV_FONT_UNSCII_8_THIN CONFIG_LV_FONT_UNSCII_8_THIN
+    #else
+        #define LV_FONT_UNSCII_8_THIN 0
+    #endif
+#endif
 
 /*Optionally declare custom fonts here.
  *You can use these fonts as default font too and they will be available globally.

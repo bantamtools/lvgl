@@ -538,6 +538,10 @@ menu "LVGL configuration"
                 default y if LV_CONF_MINIMAL
             config LV_FONT_UNSCII_16
                 bool "Enable UNSCII 16 (Perfect monospace font)"
+            config LV_FONT_UNSCII_7_THIN
+                bool "Enable UNSCII 7 Thin (Perfect monospace font)"
+            config LV_FONT_UNSCII_8_THIN
+                bool "Enable UNSCII 8 Thin (Perfect monospace font)"
 
             config LV_FONT_CUSTOM
                 bool "Enable the custom font"
@@ -631,6 +635,12 @@ menu "LVGL configuration"
             config LV_FONT_DEFAULT_UNSCII_16
                 bool "UNSCII 16 (Perfect monospace font)"
                 select LV_FONT_UNSCII_16
+            config LV_FONT_DEFAULT_UNSCII_7_THIN
+                bool "UNSCII 7 Thin (Perfect monospace font)"
+                select LV_FONT_UNSCII_7_THIN
+            config LV_FONT_DEFAULT_UNSCII_8_THIN
+                bool "UNSCII 8 Thin (Perfect monospace font)"
+                select LV_FONT_UNSCII_8_THIN
         endchoice
 
         config LV_FONT_FMT_TXT_LARGE
