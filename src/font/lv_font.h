@@ -248,6 +248,14 @@ LV_FONT_DECLARE(lv_font_unscii_7_thin)
 LV_FONT_DECLARE(lv_font_unscii_8_thin)
 #endif
 
+#if LV_FONT_SYNCH_7
+LV_FONT_DECLARE(lv_font_synch_7)
+#endif
+
+#if LV_FONT_SYNCH_8
+LV_FONT_DECLARE(lv_font_synch_8)
+#endif
+
 /*Declare the custom (user defined) fonts*/
 #ifdef LV_FONT_CUSTOM_DECLARE
 LV_FONT_CUSTOM_DECLARE

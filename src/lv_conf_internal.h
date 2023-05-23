@@ -1183,6 +1183,21 @@
     #endif
 #endif
 
+#ifndef LV_FONT_SYNCH_7
+    #ifdef CONFIG_LV_FONT_SYNCH_7
+        #define LV_FONT_SYNCH_7 CONFIG_LV_FONT_SYNCH_7
+    #else
+        #define LV_FONT_SYNCH_7  0
+    #endif
+#endif
+#ifndef LV_FONT_SYNCH_8
+    #ifdef CONFIG_LV_FONT_SYNCH_8
+        #define LV_FONT_SYNCH_8 CONFIG_LV_FONT_SYNCH_8
+    #else
+        #define LV_FONT_SYNCH_8  0
+    #endif
+#endif
+
 /*Optionally declare custom fonts here.
  *You can use these fonts as default font too and they will be available globally.
  *E.g. #define LV_FONT_CUSTOM_DECLARE   LV_FONT_DECLARE(my_font_1) LV_FONT_DECLARE(my_font_2)*/

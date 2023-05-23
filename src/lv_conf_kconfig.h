@@ -156,6 +156,10 @@ extern "C" {
 #  define CONFIG_LV_FONT_DEFAULT &lv_font_unscii_7_thin
 #elif defined(CONFIG_LV_FONT_DEFAULT_UNSCII_8_THIN)
 #  define CONFIG_LV_FONT_DEFAULT &lv_font_unscii_8_thin
+#elif defined(CONFIG_LV_FONT_DEFAULT_SYNCH_7)
+#  define CONFIG_LV_FONT_DEFAULT &lv_font_synch_7
+#elif defined(CONFIG_LV_FONT_DEFAULT_SYNCH_8)
+#  define CONFIG_LV_FONT_DEFAULT &lv_font_synch_8
 #endif
 
 /*------------------
