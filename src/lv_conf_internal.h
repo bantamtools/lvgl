@@ -1216,6 +1216,21 @@
     #endif
 #endif
 
+#ifndef LV_FONT_SAMIM_10
+    #ifdef CONFIG_LV_FONT_SAMIM_10
+        #define LV_FONT_SAMIM_10 CONFIG_LV_FONT_SAMIM_10
+    #else
+        #define LV_FONT_SAMIM_10  0
+    #endif
+#endif
+#ifndef LV_FONT_SAMIM_12
+    #ifdef CONFIG_LV_FONT_SAMIM_12
+        #define LV_FONT_SAMIM_12 CONFIG_LV_FONT_SAMIM_12
+    #else
+        #define LV_FONT_SAMIM_12  0
+    #endif
+#endif
+
 /*Optionally declare custom fonts here.
  *You can use these fonts as default font too and they will be available globally.
  *E.g. #define LV_FONT_CUSTOM_DECLARE   LV_FONT_DECLARE(my_font_1) LV_FONT_DECLARE(my_font_2)*/

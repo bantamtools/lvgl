@@ -556,6 +556,12 @@ menu "LVGL configuration"
             config LV_FONT_NINEBYFIVE_16
                 bool "Enable Nine By Five 16"
 
+            config LV_FONT_SAMIM_10
+                bool "Enable Samim 10"
+
+            config LV_FONT_SAMIM_12
+                bool "Enable Samim 12"
+
             config LV_FONT_CUSTOM
                 bool "Enable the custom font"
             config LV_FONT_CUSTOM_DECLARE
@@ -666,6 +672,12 @@ menu "LVGL configuration"
             config LV_FONT_DEFAULT_NINEBYFIVE_16
                 bool "Nine By Five 16"
                 select LV_FONT_NINEBYFIVE_16
+            config LV_FONT_DEFAULT_SAMIM_10
+                bool "Samim 10"
+                select LV_FONT_SAMIM_10
+            config LV_FONT_DEFAULT_SAMIM_12
+                bool "Samim 12"
+                select LV_FONT_SAMIM_12
         endchoice
 
         config LV_FONT_FMT_TXT_LARGE
