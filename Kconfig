@@ -553,6 +553,9 @@ menu "LVGL configuration"
             config LV_FONT_SMALLSIMPLE_16
                 bool "Enable Small Simple 16"
 
+            config LV_FONT_NINEBYFIVE_16
+                bool "Enable Nine By Five 16"
+
             config LV_FONT_CUSTOM
                 bool "Enable the custom font"
             config LV_FONT_CUSTOM_DECLARE
@@ -660,6 +663,9 @@ menu "LVGL configuration"
             config LV_FONT_DEFAULT_SMALLSIMPLE_16
                 bool "Small Simple 16"
                 select LV_FONT_SMALLSIMPLE_16
+            config LV_FONT_DEFAULT_NINEBYFIVE_16
+                bool "Nine By Five 16"
+                select LV_FONT_NINEBYFIVE_16
         endchoice
 
         config LV_FONT_FMT_TXT_LARGE

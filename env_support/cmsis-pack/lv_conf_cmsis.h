@@ -382,7 +382,8 @@
 #define LV_FONT_MEDSANS_16 0
 #define LV_FONT_WIZZARD_16 0
 #define LV_FONT_SMALLSIMPLE_16 0
-
+#define LV_FONT_NINEBYFIVE_16 0
+        
 /*Optionally declare custom fonts here.
  *You can use these fonts as default font too and they will be available globally.
  *E.g. #define LV_FONT_CUSTOM_DECLARE   LV_FONT_DECLARE(my_font_1) LV_FONT_DECLARE(my_font_2)*/

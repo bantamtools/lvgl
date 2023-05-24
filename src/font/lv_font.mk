@@ -34,6 +34,7 @@ CSRCS += lv_font_synch_8.c
 CSRCS += lv_font_medsans_16.c
 CSRCS += lv_font_wizzard_16.c
 CSRCS += lv_font_smallsimple_16.c
+CSRCS += lv_font_ninebyfive_16.c
 
 DEPPATH += --dep-path $(LVGL_DIR)/$(LVGL_DIR_NAME)/src/font
 VPATH += :$(LVGL_DIR)/$(LVGL_DIR_NAME)/src/font
