@@ -111,7 +111,7 @@ lv_obj_t * lv_msgbox_create(lv_obj_t * parent, const char * title, const char * 
     if(has_txt) {
         mbox->text = lv_label_create(mbox->content);
         lv_label_set_text(mbox->text, txt);
-        lv_label_set_long_mode(mbox->text, LV_LABEL_LONG_WRAP);
+        lv_label_set_long_mode(mbox->text, LV_LABEL_LONG_SCROLL_CIRCULAR);
         lv_obj_set_width(mbox->text, lv_pct(100));
     }
 
