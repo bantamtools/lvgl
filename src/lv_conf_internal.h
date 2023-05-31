@@ -1216,6 +1216,13 @@
     #endif
 #endif
 
+#ifndef LV_FONT_SAMIM_8
+    #ifdef CONFIG_LV_FONT_SAMIM_8
+        #define LV_FONT_SAMIM_8 CONFIG_LV_FONT_SAMIM_8
+    #else
+        #define LV_FONT_SAMIM_8  0
+    #endif
+#endif
 #ifndef LV_FONT_SAMIM_10
     #ifdef CONFIG_LV_FONT_SAMIM_10
         #define LV_FONT_SAMIM_10 CONFIG_LV_FONT_SAMIM_10

@@ -164,6 +164,8 @@ extern "C" {
 #  define CONFIG_LV_FONT_DEFAULT &lv_font_smallsimple_16
 #elif defined(CONFIG_LV_FONT_DEFAULT_NINEBYFIVE_16)
 #  define CONFIG_LV_FONT_DEFAULT &lv_font_ninebyfive_16
+#elif defined(CONFIG_LV_FONT_DEFAULT_SAMIM_8)
+#  define CONFIG_LV_FONT_DEFAULT &lv_font_samim_8
 #elif defined(CONFIG_LV_FONT_DEFAULT_SAMIM_10)
 #  define CONFIG_LV_FONT_DEFAULT &lv_font_samim_10
 #elif defined(CONFIG_LV_FONT_DEFAULT_SAMIM_12)

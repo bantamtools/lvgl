@@ -264,6 +264,10 @@ LV_FONT_DECLARE(lv_font_smallsimple_16)
 LV_FONT_DECLARE(lv_font_ninebyfive_16)
 #endif
 
+#if LV_FONT_SAMIM_8
+LV_FONT_DECLARE(lv_font_samim_8)
+#endif
+
 #if LV_FONT_SAMIM_10
 LV_FONT_DECLARE(lv_font_samim_10)
 #endif

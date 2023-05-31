@@ -35,6 +35,7 @@ CSRCS += lv_font_medsans_16.c
 CSRCS += lv_font_wizzard_16.c
 CSRCS += lv_font_smallsimple_16.c
 CSRCS += lv_font_ninebyfive_16.c
+CSRCS += lv_font_samim_8.c
 CSRCS += lv_font_samim_10.c
 CSRCS += lv_font_samim_12.c
 
